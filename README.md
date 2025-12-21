@@ -3,6 +3,11 @@ Overview
 
 The main goal of this project was to learn how to integrate multiple APIs on the server side, process the received data, and display it clearly on the frontend in a simple and user-friendly way.
 
+Setup Instructions
+
+To initialize the project and create package.json, I used npm init -y, and to install dependencies I ran npm install express axios dotenv.
+The project includes the following main files and folders: public/, .env, server.js, core.js, and package.json.
+
 The project is divided into server and client parts for better organization:
 
 1.All API logic is handled in core.js.
