@@ -10,7 +10,7 @@ The project is divided into server and client parts for better organization:
 2.The server.js file runs the Express server and sends processed data to the frontend.
 
 3.The public folder contains static files (HTML, CSS, JS) that display this data to the user
-.
+
 4. All API keys are securely stored in the .env file, keeping the project safe and easy to reuse.
 
 I created a Node.js web application that retrieves information from several APIs, processes all data in the backend (core.js), and sends it to the frontend to be displayed in structured sections.
