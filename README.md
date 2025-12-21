@@ -5,10 +5,10 @@ The main goal of this project was to learn how to integrate multiple APIs on the
 
 The project is divided into server and client parts for better organization:
 
-* All API logic is handled in core.js.
-* The server.js file runs the Express server and sends processed data to the frontend.
-* The public folder contains static files (HTML, CSS, JS) that display this data to the user.
-* All API keys are securely stored in the .env file, keeping the project safe and easy to reuse.
+1.All API logic is handled in core.js.
+2. The server.js file runs the Express server and sends processed data to the frontend.
+3. The public folder contains static files (HTML, CSS, JS) that display this data to the user.
+4. All API keys are securely stored in the .env file, keeping the project safe and easy to reuse.
 
 I created a Node.js web application that retrieves information from several APIs, processes all data in the backend (core.js), and sends it to the frontend to be displayed in structured sections.
 
@@ -37,10 +37,10 @@ Design and Interface
 
 The user interface has a clean pastel design with soft color tones and organized card layouts for each section:
 
-* Random User Information
-* Country Information
-* Exchange Rates
-* News Headlines
+1. Random User Information
+2. Country Information
+3. Exchange Rates
+4. News Headlines
 
 All parts are visually separated, well-structured, and responsive, making the application easy to read, navigate, and use on any device.
 
