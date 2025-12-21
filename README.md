@@ -12,7 +12,6 @@ The project is divided into server and client parts for better organization:
 
 I created a Node.js web application that retrieves information from several APIs, processes all data in the backend (core.js), and sends it to the frontend to be displayed in structured sections.
 
----
 
  API Usage
 
@@ -32,7 +31,7 @@ News API:
 [https://newsapi.org/](https://newsapi.org/)
 Data Retrieved: News headlines containing the user's country name, article title, image, and short description
 
----
+
 
 Design and Interface
 
@@ -45,7 +44,7 @@ The user interface has a clean pastel design with soft color tones and organized
 
 All parts are visually separated, well-structured, and responsive, making the application easy to read, navigate, and use on any device.
 
----
+
 
 Conclusion
 
