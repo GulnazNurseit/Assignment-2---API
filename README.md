@@ -3,21 +3,20 @@ Overview
 
 The main goal of this project was to learn how to integrate multiple APIs on the server side, process the received data, and display it clearly on the frontend in a simple and user-friendly way.
 
-Setup Instructions
-
 To initialize the project and create package.json, I used npm init -y, and to install dependencies I ran npm install express axios dotenv.
-The project includes the following main files and folders: public/, .env, server.js, core.js, and package.json.
+The project includes the following main files and folders: views/, public/, .env, server.js, core.js, and package.json.
 
 The project is divided into server and client parts for better organization:
 
-1.All API logic is handled in core.js.
+All API logic is handled in core.js.
 
-2.The server.js file runs the Express server and sends processed data to the frontend.
+The server.js file runs the Express server and sends processed data to the frontend.
 
-3.The public folder contains static files (HTML, CSS, JS) that display this data to the user
+The views folder contains the main HTML file (index.html) that displays the data.
 
-4. All API keys are securely stored in the .env file, keeping the project safe and easy to reuse.
+The public folder stores static files such as CSS and JavaScript.
 
+All API keys are securely stored in the .env file, keeping the project safe and easy to reuse.
 I created a Node.js web application that retrieves information from several APIs, processes all data in the backend (core.js), and sends it to the frontend to be displayed in structured sections.
 
 
